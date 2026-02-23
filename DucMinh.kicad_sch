@@ -10875,6 +10875,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 127 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07107d97-3553-4298-b60d-dae391d3aaf3")
+		(property "Reference" "C11"
+			(at 130.81 194.9449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 130.81 197.4849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ul_tantalum6032:tue_tantalum_6032"
+			(at 127 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 127 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c988d726-d407-468c-95bc-ea6362c2eb6c")
+		)
+		(pin "2"
+			(uuid "0f768ab2-6bfe-428d-9fd6-08decf8f2270")
+		)
+		(instances
+			(project "DucMinh"
+				(path "/e454eeda-a1de-43c9-95d8-58adcb0266a5"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDC")
 		(at 220.98 152.4 0)
 		(unit 1)
@@ -12828,76 +12898,6 @@
 			(project "DucMinh"
 				(path "/e454eeda-a1de-43c9-95d8-58adcb0266a5"
 					(reference "SWD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 127 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4994b11e-b5e7-4e5a-80c1-51e6d13a0fc0")
-		(property "Reference" "C11"
-			(at 130.81 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 130.81 198.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 127.9652 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52f4bf55-4bf5-4d6d-a030-7e21ec1f2a7c")
-		)
-		(pin "2"
-			(uuid "4dfb9f75-1b39-4ad9-84ea-cf48e0695e10")
-		)
-		(instances
-			(project "UART_Half_Duplex"
-				(path "/e454eeda-a1de-43c9-95d8-58adcb0266a5"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -16312,7 +16312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 375.92 83.312 90)
 			(effects
 				(font
