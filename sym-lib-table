@@ -7,4 +7,5 @@
   (lib (name "tue_TMC2209")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_TMC2209/tue_TMC2209.kicad_sym")(options "")(descr ""))
   (lib (name "tue_conn_03x03")(type "KiCad")(uri "E:/Project_Kicad/LIB/Connector/Header_2.54mm/tue_conn_03x03_2.54mm.kicad_sym")(options "")(descr ""))
   (lib (name "tue_stm32bluepill")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_STM32F103C8T6/tue_stm32bluepill.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_74hct125d")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_74HCT125D/2026-03-02_17-02-49.kicad_sym")(options "")(descr ""))
 )

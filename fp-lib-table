@@ -11,4 +11,5 @@
   (lib (name "ul_Conn_03x03")(type "KiCad")(uri "E:/Project_Kicad/LIB/Connector/Header_2.54mm/tue_conn.pretty")(options "")(descr ""))
   (lib (name "ul_switch-SS12D00")(type "KiCad")(uri "E:/Project_Kicad/LIB/Switch/SS12D00/tue_switch_SS12D00.pretty")(options "")(descr ""))
   (lib (name "ul_tantalum6032")(type "KiCad")(uri "E:/Project_Kicad/LIB/Capacitor/tue_tantalum.pretty")(options "")(descr ""))
+  (lib (name "tue_74hct125")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_74HCT125D/footprints.pretty")(options "")(descr ""))
 )
