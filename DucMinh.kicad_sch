@@ -8215,22 +8215,22 @@
 	)
 	(global_label "DIR_PIN"
 		(shape input)
-		(at 283.21 198.12 180)
+		(at 344.17 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "34b213c5-a87d-4127-b7f2-73a2f84b8ee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.9071 198.12 0)
+			(at 354.4729 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8369,22 +8369,22 @@
 	)
 	(global_label "STEP_PIN"
 		(shape input)
-		(at 283.21 200.66 180)
+		(at 344.17 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "546ff075-048a-43aa-944c-b6776aeaf1f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.4558 200.66 0)
+			(at 355.9242 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8919,22 +8919,22 @@
 	)
 	(global_label "ENABLE_PIN"
 		(shape input)
-		(at 344.17 165.1 0)
+		(at 283.21 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ad9ade56-5ac9-4e04-ad60-790c9cacec57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.3433 165.1 0)
+			(at 269.0367 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9117,7 +9117,7 @@
 	)
 	(global_label "MS2_PIN"
 		(shape input)
-		(at 283.21 203.2 180)
+		(at 283.21 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9127,7 +9127,7 @@
 		)
 		(uuid "cb96cc21-8c66-48b3-8bf2-d1370fa0ba18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.1815 203.2 0)
+			(at 272.1815 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9271,7 +9271,7 @@
 	)
 	(global_label "MS1_PIN"
 		(shape input)
-		(at 283.21 205.74 180)
+		(at 283.21 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9281,7 +9281,7 @@
 		)
 		(uuid "f4846eb5-7bb8-4ded-86f5-a24060e0d05e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.1815 205.74 0)
+			(at 272.1815 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
