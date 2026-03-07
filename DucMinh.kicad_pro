@@ -581,6 +581,12 @@
         },
         {
           "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Availability",
           "name": "Availability",
           "show": false
@@ -589,6 +595,12 @@
           "group_by": false,
           "label": "Check_prices",
           "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESCRIPTION",
+          "name": "DESCRIPTION",
           "show": false
         },
         {
@@ -605,6 +617,12 @@
         },
         {
           "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "MF",
           "name": "MF",
           "show": false
@@ -617,8 +635,20 @@
         },
         {
           "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
           "show": false
         },
         {
@@ -631,6 +661,12 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
           "show": false
         },
         {
@@ -712,7 +748,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/ADMIN/OneDrive/Máy tính/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

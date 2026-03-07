@@ -1,36 +1,36 @@
-"Reference","Value","Footprint","Datasheet","Qty","DNP","Exclude from BOM","Exclude from Board"
-"AS5600","AS5600","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","1","","",""
-"BOOT0","BOOT0","ul_switch-SS12D00:tue_SS12D00_3P_2.5mm","~","1","","",""
-"BOOT1","BOOT1","ul_switch-SS12D00:tue_SS12D00_3P_2.5mm","~","1","","",""
-"C1,C2,C3,C4,C6,C10","100nf","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","6","","",""
-"C5","10uf","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","1","","",""
-"C7,C8","1uf","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","2","","",""
-"C9,C17","330uF","Capacitor_THT:CP_Radial_D8.0mm_P5.00mm","~","2","","",""
-"C11","10uF","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~","1","","",""
-"C13,C14","20pf","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","2","","",""
-"C15,C16","10pf","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","2","","",""
-"C18","100nf","Capacitor_THT:CP_Radial_D8.0mm_P5.00mm","~","1","","",""
-"C19","10uf","ul_tantalum6032:tue_tantalum_6032","~","1","","",""
-"D3,D4","SS34","Diode_SMD:D_SMA","https://www.vishay.com/docs/88751/ss32.pdf","2","","",""
-"FB1","120R","Resistor_SMD:R_0603_1608Metric","~","1","","",""
-"HC05","HC05","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","~","1","","",""
-"J5","USB_B_Micro","ul_USB:USB_Micro-B_Wuerth-629105150521","~","1","","",""
-"J8","Conn_01x04","Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical","~","1","","",""
-"L1","CDRH127/LDNP-47uH","ul_inductor_smd:tue__CDRH127LDNP-470MC_SUM","CDRH127/LDNP-470MC","1","","",""
-"PC13,PWR1,TMC_EN1","LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~","3","","",""
-"POWER1","POWER","ul_TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~","1","","",""
-"PWM1","~","ul_Conn_03x03:tue_conn_03x03_2.54mm","","1","","",""
-"R2","1k","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","1","","",""
-"R3,R7,R8","10k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","3","","",""
-"R4,R5","1k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","2","","",""
-"R11","1k5","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","1","","",""
-"R14,R15","20-22R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","2","","",""
-"SW1","SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","1","","",""
-"SWD1","SWD","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","1","","",""
-"U1","STM32F103C8T6","ul_stm32:LQFP48_STM","https://www.st.com/resource/en/datasheet/stm32f103c8.pdf","1","","",""
-"U2","AMS1117-3.3","ul_ams1117:SOT_AMS_ADS","AMS1117-3.3","1","","",""
-"U3","LM2596SX-5.0/NOPB","ul_lm2596hvs:tue_lm2596","https://www.ti.com/lit/gpn/lm2596","1","","",""
-"U4","TMC2209_SILENTSTEPSTICK","ul_TMC2209:tue_TMC2209","","1","","",""
-"VIN1","Conn_01x03","ul_switch-SS12D00:tue_SS12D00_3P_2.5mm","~","1","","",""
-"Y1","8 MHz","Crystal:Crystal_HC49-4H_Vertical","~","1","","",""
-"Y3","32.768 kHz","ul_crytsal_mc306:SOJ_MC-306_EPS","~","1","","",""
+Reference,Value,Footprint,Qty,,
+"C1,C2,C3,C4,C5,C9",100nf,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,6,Có s?n,
+C6,1uf,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,,
+"C8,C16",330uF,Capacitor_THT:CP_Radial_D8.0mm_P5.00mm,2,,
+"C10,C18",10uf,tue_tantalum6032:tue_tantalum_6032,2,Thi?u,
+"C11,C12,C13",330uf,Capacitor_THT:CP_Radial_D8.0mm_P5.00mm,3,,
+"C14,C15",20pf,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2,Có s?n,
+C17,470uf,Capacitor_THT:CP_Radial_D8.0mm_P5.00mm,1,Thi?u,
+"D1,D2",SS34,Diode_SMD:D_SMA,2,,
+DS1,LED_PWR,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,Có s?n,
+DS2,LED_PC13,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,,
+DS4,LED_TMC_EN,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,,
+FB1,120R,Resistor_SMD:R_0603_1608Metric,1,,
+J1,Power,tue_TerminalBlock:TerminalBlock_bornier-2_P5.08mm,1,,
+J2,M1,tue_TerminalBlock:TerminalBlock_bornier-2_P5.08mm,1,,
+J3,USB_B_Micro,Connector_USB:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal,1,,
+J4,M2,tue_TerminalBlock:TerminalBlock_bornier-2_P5.08mm,1,,
+J5,M3,tue_TerminalBlock:TerminalBlock_bornier-2_P5.08mm,1,,
+J6,AS5600,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1,,
+J7,STLink,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1,,
+J8,Stepper_Motor,Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,,
+J10,HC05,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,1,,
+J11,PWR_Selection,tue_switch-SS12D00:tue_SS12D00_3P_2.5mm,1,Thi?u,
+J12,BOOT0,tue_switch-SS12D00:tue_SS12D00_3P_2.5mm,1,,
+L1,CDRH127/LDNP-47uH,tue_inductor_smd:tue__CDRH127LDNP-470MC_SUM,1,,
+"R3,R9,R10,R12,R19,R20,R22,R24,R26,R28,R30,R32",10k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,12,Có s?n,
+"R7,R13,R16",1k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,3,,
+R11,1k5,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,,
+"R14,R15",20-22R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,,
+SW1,SW_Push,Button_Switch_THT:SW_PUSH_6mm,1,,
+U2,AMS1117-3.3,tue_ams1117:SOT_AMS_ADS,1,Thi?u,
+U3,LM2596SX-5.0/NOPB,tue_lm2596hvs:tue_lm2596,1,,
+U4,TMC2209_SILENTSTEPSTICK,tue_TMC2209:tue_TMC2209,1,,
+"U5,U8,U10",BTS7960B,tue_bts7960b:DPAK127P1490X440-8N,3,,
+U6,STM32F103RCT6,tue_stm32f103rct6:QFP50P1200X1200X160-64N,1,,
+Y1,8 MHz,Crystal:Crystal_HC49-4H_Vertical,1,,
