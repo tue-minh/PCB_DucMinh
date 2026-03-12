@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "tue_ams1117")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_AMS1117/tue_ams1117.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_crystal_mc306")(type "KiCad")(uri "E:/Project_Kicad/LIB/Crystal/32768_KHz/tue_mc_306_32768_KHz.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_lm2596hvs")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_LM2596SX-NOPB/tue_lm2596.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_inductor_smd")(type "KiCad")(uri "E:/Project_Kicad/LIB/Inductor/tue_CDRH127LDNP-470MC_SUM.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_TMC2209")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_TMC2209/tue_TMC2209.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_conn_03x03")(type "KiCad")(uri "E:/Project_Kicad/LIB/Connector/Header_2.54mm/tue_conn_03x03_2.54mm.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_stm32bluepill")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_STM32F103C8T6/tue_stm32bluepill.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_f103rct6")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_STM32F103RCT6/STM32F103RCT6.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_bts7960")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_BTS7960B/BTS7960B.kicad_sym")(options "")(descr ""))
+  (lib (name "tue_sn74hc244dbr")(type "KiCad")(uri "E:/Project_Kicad/LIB/IC/tue_SN74HC244DBR/SN74HC244DBR.kicad_sym")(options "")(descr ""))
+)
