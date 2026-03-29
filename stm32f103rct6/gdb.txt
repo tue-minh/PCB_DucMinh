@@ -1,0 +1,1507 @@
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.13V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"SWD scan found no devices.\n"
+@"auto scan failed!\n"
+@"Failed\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+27^error,msg="Attaching to Remote target failed"
+(gdb) 
+28^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.18V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"SWD scan found no devices.\n"
+@"auto scan failed!\n"
+@"Failed\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+27^error,msg="Attaching to Remote target failed"
+(gdb) 
+28^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.39V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1 medium density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x080004a4 in HAL_Init () at ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:157\n"
+~"157\t  HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);\n"
+*stopped,frame={addr="0x080004a4",func="HAL_Init",args=[],file="../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",line="157",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="706668"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="706668"}
+~"Loading section .text, size 0x1138 lma 0x80001e4\n"
+28+download,{section=".text",section-size="4408",total-size="706668"}
+~"Loading section .rodata, size 0x24 lma 0x800131c\n"
+28+download,{section=".rodata",section-size="36",total-size="706668"}
+~"Loading section .init_array, size 0x4 lma 0x8001340\n"
+28+download,{section=".init_array",section-size="4",total-size="706668"}
+~"Loading section .fini_array, size 0x4 lma 0x8001344\n"
+28+download,{section=".fini_array",section-size="4",total-size="706668"}
+~"Loading section .data, size 0xc lma 0x8001348\n"
+28+download,{section=".data",section-size="12",total-size="706668"}
+~"Start address 0x08000444, load size 4948\n"
+~"Transfer rate: 14 KB/sec, 494 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.48V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1 medium density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"HardFault_Handler () at ../Core/Src/stm32f1xx_it.c:89\n"
+~"89\t  while (1)\n"
+*stopped,frame={addr="0x080003ec",func="HardFault_Handler",args=[],file="../Core/Src/stm32f1xx_it.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\stm32f1xx_it.c",line="89",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="706668"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="706668"}
+~"Loading section .text, size 0x1138 lma 0x80001e4\n"
+28+download,{section=".text",section-size="4408",total-size="706668"}
+~"Loading section .rodata, size 0x24 lma 0x800131c\n"
+28+download,{section=".rodata",section-size="36",total-size="706668"}
+~"Loading section .init_array, size 0x4 lma 0x8001340\n"
+28+download,{section=".init_array",section-size="4",total-size="706668"}
+~"Loading section .fini_array, size 0x4 lma 0x8001344\n"
+28+download,{section=".fini_array",section-size="4",total-size="706668"}
+~"Loading section .data, size 0xc lma 0x8001348\n"
+28+download,{section=".data",section-size="12",total-size="706668"}
+~"Start address 0x08000444, load size 4948\n"
+~"Transfer rate: 14 KB/sec, 494 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.24V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1 medium density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"Reset_Handler () at ../Core/Startup/startup_stm32f103rctx.s:100\n"
+~"100\t    bl __libc_init_array\n"
+*stopped,frame={addr="0x0800046e",func="Reset_Handler",args=[],file="../Core/Startup/startup_stm32f103rctx.s",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Startup\\startup_stm32f103rctx.s",line="100",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="706668"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="706668"}
+~"Loading section .text, size 0x1138 lma 0x80001e4\n"
+28+download,{section=".text",section-size="4408",total-size="706668"}
+~"Loading section .rodata, size 0x24 lma 0x800131c\n"
+28+download,{section=".rodata",section-size="36",total-size="706668"}
+~"Loading section .init_array, size 0x4 lma 0x8001340\n"
+28+download,{section=".init_array",section-size="4",total-size="706668"}
+~"Loading section .fini_array, size 0x4 lma 0x8001344\n"
+28+download,{section=".fini_array",section-size="4",total-size="706668"}
+~"Loading section .data, size 0xc lma 0x8001348\n"
+28+download,{section=".data",section-size="12",total-size="706668"}
+~"Start address 0x08000444, load size 4948\n"
+~"Transfer rate: 14 KB/sec, 494 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.48V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1 medium density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"HardFault_Handler () at ../Core/Src/stm32f1xx_it.c:89\n"
+~"89\t  while (1)\n"
+*stopped,frame={addr="0x080003ec",func="HardFault_Handler",args=[],file="../Core/Src/stm32f1xx_it.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\stm32f1xx_it.c",line="89",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="706668"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="706668"}
+~"Loading section .text, size 0x1138 lma 0x80001e4\n"
+28+download,{section=".text",section-size="4408",total-size="706668"}
+~"Loading section .rodata, size 0x24 lma 0x800131c\n"
+28+download,{section=".rodata",section-size="36",total-size="706668"}
+~"Loading section .init_array, size 0x4 lma 0x8001340\n"
+28+download,{section=".init_array",section-size="4",total-size="706668"}
+~"Loading section .fini_array, size 0x4 lma 0x8001344\n"
+28+download,{section=".fini_array",section-size="4",total-size="706668"}
+~"Loading section .data, size 0xc lma 0x8001348\n"
+28+download,{section=".data",section-size="12",total-size="706668"}
+~"Start address 0x08000444, load size 4948\n"
+~"Transfer rate: 15 KB/sec, 494 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.61V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"SWD scan found no devices.\n"
+@"auto scan failed!\n"
+@"Failed\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+27^error,msg="Attaching to Remote target failed"
+(gdb) 
+28^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.49V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"SWD scan found no devices.\n"
+@"auto scan failed!\n"
+@"Failed\n"
+26^done
+(gdb) 
+27^error,msg="Undefined MI command: -monitor",code="undefined-command"
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+28^error,msg="Attaching to Remote target failed"
+(gdb) 
+29^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor reset halt\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+27^error,msg="Attaching to Remote target failed"
+(gdb) 
+28^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor reset halt\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+27^error,msg="Attaching to Remote target failed"
+(gdb) 
+&"interrupt\n"
+28^done
+(gdb) 
+29^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor reset halt\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+27^error,msg="Attaching to Remote target failed"
+(gdb) 
+&"interrupt\n"
+28^done
+(gdb) 
+29^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.41V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"SWD scan found no devices.\n"
+@"auto scan failed!\n"
+@"Failed\n"
+26^done
+(gdb) 
+&"monitor reset halt\n"
+27^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+28^error,msg="Attaching to Remote target failed"
+(gdb) 
+&"interrupt\n"
+29^done
+(gdb) 
+30^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.59V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"SWD scan found no devices.\n"
+@"auto scan failed!\n"
+@"Failed\n"
+26^done
+(gdb) 
+&"monitor reset halt\n"
+27^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+28^error,msg="Attaching to Remote target failed"
+(gdb) 
+&"interrupt\n"
+29^done
+(gdb) 
+30^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.36V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"monitor reset halt\n"
+27^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+&"Attaching to Remote target failed\n"
+28^error,msg="Attaching to Remote target failed"
+(gdb) 
+&"interrupt\n"
+29^done
+(gdb) 
+30^exit
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.38V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x080024b8 in ?? ()\n"
+*stopped,frame={addr="0x080024b8",func="??",args=[],arch="armv7"},thread-id="1",stopped-threads="all"
+28^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+29+download,{section=".isr_vector",section-size="484",total-size="706784"}
+29+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="706784"}
+~"Loading section .text, size 0x1180 lma 0x80001e4\n"
+29+download,{section=".text",section-size="4480",total-size="706784"}
+~"Loading section .rodata, size 0x24 lma 0x8001364\n"
+29+download,{section=".rodata",section-size="36",total-size="706784"}
+~"Loading section .init_array, size 0x4 lma 0x8001388\n"
+29+download,{section=".init_array",section-size="4",total-size="706784"}
+~"Loading section .fini_array, size 0x4 lma 0x800138c\n"
+29+download,{section=".fini_array",section-size="4",total-size="706784"}
+~"Loading section .data, size 0xc lma 0x8001390\n"
+29+download,{section=".data",section-size="12",total-size="706784"}
+~"Start address 0x0800048c, load size 5020\n"
+~"Transfer rate: 17 KB/sec, 502 bytes/write.\n"
+29^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+30^done,threads=[{id="1",target-id="Thread 1",frame={level="0",addr="0x0800048c",func="Reset_Handler",args=[],file="../Core/Startup/startup_stm32f103rctx.s",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Startup\\startup_stm32f103rctx.s",line="66",arch="armv7"},state="stopped"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.23V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x080005ce in HAL_Delay (Delay=100) at ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:382\n"
+~"382\t  while ((HAL_GetTick() - tickstart) < wait)\n"
+*stopped,frame={addr="0x080005ce",func="HAL_Delay",args=[{name="Delay",value="100"}],file="../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",line="382",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="706788"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="706788"}
+~"Loading section .text, size 0x1184 lma 0x80001e4\n"
+28+download,{section=".text",section-size="4484",total-size="706788"}
+~"Loading section .rodata, size 0x24 lma 0x8001368\n"
+28+download,{section=".rodata",section-size="36",total-size="706788"}
+~"Loading section .init_array, size 0x4 lma 0x800138c\n"
+28+download,{section=".init_array",section-size="4",total-size="706788"}
+~"Loading section .fini_array, size 0x4 lma 0x8001390\n"
+28+download,{section=".fini_array",section-size="4",total-size="706788"}
+~"Loading section .data, size 0xc lma 0x8001394\n"
+28+download,{section=".data",section-size="12",total-size="706788"}
+~"Start address 0x08000490, load size 5024\n"
+~"Transfer rate: 17 KB/sec, 502 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+23^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+24^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.40V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+25^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+26^done
+~"0x080005c8 in HAL_InitTick (TickPriority=536920032) at ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:255\n"
+~"255\t}\n"
+*stopped,frame={addr="0x080005c8",func="HAL_InitTick",args=[{name="TickPriority",value="536920032"}],file="../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",line="255",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+27+download,{section=".isr_vector",section-size="484",total-size="881498"}
+27+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="881498"}
+~"Loading section .text, size 0x75c0 lma 0x80001e4\n"
+27+download,{section=".text",section-size="30144",total-size="881498"}
+27+download,{section=".text",section-sent="17580",section-size="30144",total-sent="18064",total-size="881498"}
+~"Loading section .rodata, size 0x6c lma 0x80077a4\n"
+27+download,{section=".rodata",section-size="108",total-size="881498"}
+~"Loading section .init_array, size 0x4 lma 0x8007810\n"
+27+download,{section=".init_array",section-size="4",total-size="881498"}
+~"Loading section .fini_array, size 0x4 lma 0x8007814\n"
+27+download,{section=".fini_array",section-size="4",total-size="881498"}
+~"Loading section .data, size 0x17c lma 0x8007818\n"
+27+download,{section=".data",section-size="380",total-size="881498"}
+~"Start address 0x080004f4, load size 31124\n"
+~"Transfer rate: 21 KB/sec, 864 bytes/write.\n"
+27^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+28^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+29^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.25V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x080005fc in MX_GPIO_Init () at ../Core/Src/main.c:291\n"
+~"291\t  GPIO_InitStruct.Pin = STEP_EN_Pin|STEP_MS1_Pin|STEP_MS2_Pin|STEP_DIR_Pin;\n"
+*stopped,frame={addr="0x080005fc",func="MX_GPIO_Init",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="291",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="975744"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="975744"}
+~"Loading section .text, size 0x838c lma 0x80001e4\n"
+28+download,{section=".text",section-size="33676",total-size="975744"}
+28+download,{section=".text",section-sent="17516",section-size="33676",total-sent="18000",total-size="975744"}
+~"Loading section .rodata, size 0xc4 lma 0x8008570\n"
+28+download,{section=".rodata",section-size="196",total-size="975744"}
+~"Loading section .ARM, size 0x8 lma 0x8008634\n"
+28+download,{section=".ARM",section-size="8",total-size="975744"}
+~"Loading section .init_array, size 0x4 lma 0x800863c\n"
+28+download,{section=".init_array",section-size="4",total-size="975744"}
+~"Loading section .fini_array, size 0x4 lma 0x8008640\n"
+28+download,{section=".fini_array",section-size="4",total-size="975744"}
+28+download,{section=".fini_array",section-sent="4",section-size="4",total-sent="34372",total-size="975744"}
+~"Loading section .data, size 0x17c lma 0x8008644\n"
+28+download,{section=".data",section-size="380",total-size="975744"}
+~"Start address 0x080007b8, load size 34752\n"
+~"Transfer rate: 22 KB/sec, 847 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.32V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x080008c0 in HAL_GetTick () at ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:307\n"
+~"307\t}\n"
+*stopped,frame={addr="0x080008c0",func="HAL_GetTick",args=[],file="../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",line="307",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="975736"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="975736"}
+~"Loading section .text, size 0x838c lma 0x80001e4\n"
+28+download,{section=".text",section-size="33676",total-size="975736"}
+28+download,{section=".text",section-sent="16540",section-size="33676",total-sent="17024",total-size="975736"}
+28+download,{section=".text",section-sent="33676",section-size="33676",total-sent="34160",total-size="975736"}
+~"Loading section .rodata, size 0xc4 lma 0x8008570\n"
+28+download,{section=".rodata",section-size="196",total-size="975736"}
+~"Loading section .ARM, size 0x8 lma 0x8008634\n"
+28+download,{section=".ARM",section-size="8",total-size="975736"}
+~"Loading section .init_array, size 0x4 lma 0x800863c\n"
+28+download,{section=".init_array",section-size="4",total-size="975736"}
+~"Loading section .fini_array, size 0x4 lma 0x8008640\n"
+28+download,{section=".fini_array",section-size="4",total-size="975736"}
+~"Loading section .data, size 0x17c lma 0x8008644\n"
+28+download,{section=".data",section-size="380",total-size="975736"}
+~"Start address 0x080007b8, load size 34752\n"
+~"Transfer rate: 22 KB/sec, 847 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.36V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x080008ba in HAL_IncTick () at ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:296\n"
+~"296\t}\n"
+*stopped,frame={addr="0x080008ba",func="HAL_IncTick",args=[],file="../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",line="296",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="975865"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="975865"}
+~"Loading section .text, size 0x8398 lma 0x80001e4\n"
+28+download,{section=".text",section-size="33688",total-size="975865"}
+28+download,{section=".text",section-sent="16540",section-size="33688",total-sent="17024",total-size="975865"}
+28+download,{section=".text",section-sent="33688",section-size="33688",total-sent="34172",total-size="975865"}
+~"Loading section .rodata, size 0xc4 lma 0x800857c\n"
+28+download,{section=".rodata",section-size="196",total-size="975865"}
+~"Loading section .ARM, size 0x8 lma 0x8008640\n"
+28+download,{section=".ARM",section-size="8",total-size="975865"}
+~"Loading section .init_array, size 0x4 lma 0x8008648\n"
+28+download,{section=".init_array",section-size="4",total-size="975865"}
+~"Loading section .fini_array, size 0x4 lma 0x800864c\n"
+28+download,{section=".fini_array",section-size="4",total-size="975865"}
+~"Loading section .data, size 0x17c lma 0x8008650\n"
+28+download,{section=".data",section-size="380",total-size="975865"}
+~"Start address 0x080007c4, load size 34764\n"
+~"Transfer rate: 22 KB/sec, 847 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.26V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x08000904 in NVIC_EncodePriority (PriorityGroup=501, PreemptPriority=4008, SubPriority=500) at ../Drivers/CMSIS/Include/core_cm3.h:1693\n"
+~"1693\t  SubPriorityBits     = ((PriorityGroupTmp + (uint32_t)(__NVIC_PRIO_BITS)) < (uint32_t)7UL) ? (uint32_t)0UL : (uint32_t)((PriorityGroupTmp - 7UL) + (uint32_t)(__NVIC_PRIO_BITS));\n"
+*stopped,frame={addr="0x08000904",func="NVIC_EncodePriority",args=[{name="PriorityGroup",value="501"},{name="PreemptPriority",value="4008"},{name="SubPriority",value="500"}],file="../Drivers/CMSIS/Include/core_cm3.h",fullname="E:\\Project_Stm32\\stm32f103rct6\\Drivers\\CMSIS\\Include\\core_cm3.h",line="1693",arch="armv7"},thread-id="1",stopped-threads="all"
+28^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+29+download,{section=".isr_vector",section-size="484",total-size="974874"}
+29+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="974874"}
+~"Loading section .text, size 0x8160 lma 0x80001e4\n"
+29+download,{section=".text",section-size="33120",total-size="974874"}
+29+download,{section=".text",section-sent="17516",section-size="33120",total-sent="18000",total-size="974874"}
+~"Loading section .rodata, size 0x6c lma 0x8008344\n"
+29+download,{section=".rodata",section-size="108",total-size="974874"}
+~"Loading section .init_array, size 0x4 lma 0x80083b0\n"
+29+download,{section=".init_array",section-size="4",total-size="974874"}
+~"Loading section .fini_array, size 0x4 lma 0x80083b4\n"
+29+download,{section=".fini_array",section-size="4",total-size="974874"}
+~"Loading section .data, size 0x17c lma 0x80083b8\n"
+29+download,{section=".data",section-size="380",total-size="974874"}
+~"Start address 0x08000690, load size 34100\n"
+~"Transfer rate: 22 KB/sec, 874 bytes/write.\n"
+29^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+30^done,threads=[{id="1",target-id="Thread 1",frame={level="0",addr="0x08000690",func="Reset_Handler",args=[],file="../Core/Startup/startup_stm32f103rctx.s",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Startup\\startup_stm32f103rctx.s",line="66",arch="armv7"},state="stopped"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.44V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"main () at ../Core/Src/main.c:143\n"
+~"143\t  while (1)\n"
+*stopped,frame={addr="0x08000276",func="main",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="143",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="974874"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="974874"}
+~"Loading section .text, size 0x8160 lma 0x80001e4\n"
+28+download,{section=".text",section-size="33120",total-size="974874"}
+28+download,{section=".text",section-sent="17516",section-size="33120",total-sent="18000",total-size="974874"}
+~"Loading section .rodata, size 0x6c lma 0x8008344\n"
+28+download,{section=".rodata",section-size="108",total-size="974874"}
+~"Loading section .init_array, size 0x4 lma 0x80083b0\n"
+28+download,{section=".init_array",section-size="4",total-size="974874"}
+~"Loading section .fini_array, size 0x4 lma 0x80083b4\n"
+28+download,{section=".fini_array",section-size="4",total-size="974874"}
+~"Loading section .data, size 0x17c lma 0x80083b8\n"
+28+download,{section=".data",section-size="380",total-size="974874"}
+~"Start address 0x08000690, load size 34100\n"
+~"Transfer rate: 22 KB/sec, 874 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.25V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"main () at ../Core/Src/main.c:143\n"
+~"143\t  while (1)\n"
+*stopped,frame={addr="0x08000276",func="main",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="143",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="974991"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="974991"}
+~"Loading section .text, size 0x8160 lma 0x80001e4\n"
+28+download,{section=".text",section-size="33120",total-size="974991"}
+28+download,{section=".text",section-sent="17516",section-size="33120",total-sent="18000",total-size="974991"}
+~"Loading section .rodata, size 0x6c lma 0x8008344\n"
+28+download,{section=".rodata",section-size="108",total-size="974991"}
+~"Loading section .init_array, size 0x4 lma 0x80083b0\n"
+28+download,{section=".init_array",section-size="4",total-size="974991"}
+~"Loading section .fini_array, size 0x4 lma 0x80083b4\n"
+28+download,{section=".fini_array",section-size="4",total-size="974991"}
+~"Loading section .data, size 0x17c lma 0x80083b8\n"
+28+download,{section=".data",section-size="380",total-size="974991"}
+~"Start address 0x08000690, load size 34100\n"
+~"Transfer rate: 22 KB/sec, 874 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.36V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"main () at ../Core/Src/main.c:143\n"
+~"143\t  while (1)\n"
+*stopped,frame={addr="0x08000276",func="main",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="143",arch="armv7"},thread-id="1",stopped-threads="all"
+28^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+29+download,{section=".isr_vector",section-size="484",total-size="974991"}
+29+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="974991"}
+~"Loading section .text, size 0x8160 lma 0x80001e4\n"
+29+download,{section=".text",section-size="33120",total-size="974991"}
+29+download,{section=".text",section-sent="17516",section-size="33120",total-sent="18000",total-size="974991"}
+~"Loading section .rodata, size 0x6c lma 0x8008344\n"
+29+download,{section=".rodata",section-size="108",total-size="974991"}
+~"Loading section .init_array, size 0x4 lma 0x80083b0\n"
+29+download,{section=".init_array",section-size="4",total-size="974991"}
+~"Loading section .fini_array, size 0x4 lma 0x80083b4\n"
+29+download,{section=".fini_array",section-size="4",total-size="974991"}
+~"Loading section .data, size 0x17c lma 0x80083b8\n"
+29+download,{section=".data",section-size="380",total-size="974991"}
+~"Start address 0x08000690, load size 34100\n"
+~"Transfer rate: 22 KB/sec, 874 bytes/write.\n"
+29^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+30^done,threads=[{id="1",target-id="Thread 1",frame={level="0",addr="0x08000690",func="Reset_Handler",args=[],file="../Core/Startup/startup_stm32f103rctx.s",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Startup\\startup_stm32f103rctx.s",line="66",arch="armv7"},state="stopped"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.58V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x08000278 in main () at ../Core/Src/main.c:146\n"
+~"146\t  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);\n"
+*stopped,frame={addr="0x08000278",func="main",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="146",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="976826"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="976826"}
+~"Loading section .text, size 0x8584 lma 0x80001e4\n"
+28+download,{section=".text",section-size="34180",total-size="976826"}
+28+download,{section=".text",section-sent="17516",section-size="34180",total-sent="18000",total-size="976826"}
+~"Loading section .rodata, size 0x6c lma 0x8008768\n"
+28+download,{section=".rodata",section-size="108",total-size="976826"}
+~"Loading section .init_array, size 0x4 lma 0x80087d4\n"
+28+download,{section=".init_array",section-size="4",total-size="976826"}
+~"Loading section .fini_array, size 0x4 lma 0x80087d8\n"
+28+download,{section=".fini_array",section-size="4",total-size="976826"}
+~"Loading section .data, size 0x17c lma 0x80087dc\n"
+28+download,{section=".data",section-size="380",total-size="976826"}
+28+download,{section=".data",section-sent="380",section-size="380",total-sent="35160",total-size="976826"}
+~"Start address 0x08000854, load size 35160\n"
+~"Transfer rate: 22 KB/sec, 879 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.24V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"main () at ../Core/Src/main.c:151\n"
+~"151\t  HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);\n"
+*stopped,frame={addr="0x0800028a",func="main",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="151",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="976937"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="976937"}
+~"Loading section .text, size 0x85d4 lma 0x80001e4\n"
+28+download,{section=".text",section-size="34260",total-size="976937"}
+28+download,{section=".text",section-sent="16556",section-size="34260",total-sent="17040",total-size="976937"}
+28+download,{section=".text",section-sent="34188",section-size="34260",total-sent="34672",total-size="976937"}
+~"Loading section .rodata, size 0x6c lma 0x80087b8\n"
+28+download,{section=".rodata",section-size="108",total-size="976937"}
+~"Loading section .init_array, size 0x4 lma 0x8008824\n"
+28+download,{section=".init_array",section-size="4",total-size="976937"}
+~"Loading section .fini_array, size 0x4 lma 0x8008828\n"
+28+download,{section=".fini_array",section-size="4",total-size="976937"}
+~"Loading section .data, size 0x17c lma 0x800882c\n"
+28+download,{section=".data",section-size="380",total-size="976937"}
+~"Start address 0x080008a4, load size 35240\n"
+~"Transfer rate: 21 KB/sec, 859 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.35V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x080002aa in Stepper_Set_Speed (hz=20) at ../Core/Src/main.c:142\n"
+~"142\t        if(period < 2) period = 2;  // Gi\341\273\233i h\341\272\241n period t\341\273\221i thi\341\273\203u\n"
+*stopped,frame={addr="0x080002aa",func="Stepper_Set_Speed",args=[{name="hz",value="20"}],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="142",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="977918"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="977918"}
+~"Loading section .text, size 0x86e0 lma 0x80001e4\n"
+28+download,{section=".text",section-size="34528",total-size="977918"}
+28+download,{section=".text",section-sent="17516",section-size="34528",total-sent="18000",total-size="977918"}
+28+download,{section=".text",section-sent="34528",section-size="34528",total-sent="35012",total-size="977918"}
+~"Loading section .rodata, size 0x6c lma 0x80088c4\n"
+28+download,{section=".rodata",section-size="108",total-size="977918"}
+~"Loading section .init_array, size 0x4 lma 0x8008930\n"
+28+download,{section=".init_array",section-size="4",total-size="977918"}
+~"Loading section .fini_array, size 0x4 lma 0x8008934\n"
+28+download,{section=".fini_array",section-size="4",total-size="977918"}
+~"Loading section .data, size 0x180 lma 0x8008938\n"
+28+download,{section=".data",section-size="384",total-size="977918"}
+~"Start address 0x080009b0, load size 35512\n"
+~"Transfer rate: 22 KB/sec, 866 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.58V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"0x080003b2 in SystemClock_Config () at ../Core/Src/main.c:242\n"
+~"242\t  RCC_OscInitTypeDef RCC_OscInitStruct = {0};\n"
+*stopped,frame={addr="0x080003b2",func="SystemClock_Config",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="242",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="977881"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="977881"}
+~"Loading section .text, size 0x86bc lma 0x80001e4\n"
+28+download,{section=".text",section-size="34492",total-size="977881"}
+28+download,{section=".text",section-sent="17516",section-size="34492",total-sent="18000",total-size="977881"}
+28+download,{section=".text",section-sent="34492",section-size="34492",total-sent="34976",total-size="977881"}
+~"Loading section .rodata, size 0x6c lma 0x80088a0\n"
+28+download,{section=".rodata",section-size="108",total-size="977881"}
+~"Loading section .init_array, size 0x4 lma 0x800890c\n"
+28+download,{section=".init_array",section-size="4",total-size="977881"}
+~"Loading section .fini_array, size 0x4 lma 0x8008910\n"
+28+download,{section=".fini_array",section-size="4",total-size="977881"}
+~"Loading section .data, size 0x180 lma 0x8008914\n"
+28+download,{section=".data",section-size="384",total-size="977881"}
+~"Start address 0x0800098c, load size 35476\n"
+~"Transfer rate: 22 KB/sec, 865 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,threads=[{id="1",target-id="Thread 1",frame={level="0",addr="0x0800098c",func="Reset_Handler",args=[],file="../Core/Startup/startup_stm32f103rctx.s",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Startup\\startup_stm32f103rctx.s",line="66",arch="armv7"},state="stopped"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+31^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+32^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.36V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"main () at ../Core/Src/main.c:215\n"
+~"215\t  HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_2);\n"
+*stopped,frame={addr="0x0800038e",func="main",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="215",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="977918"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="977918"}
+~"Loading section .text, size 0x86e0 lma 0x80001e4\n"
+28+download,{section=".text",section-size="34528",total-size="977918"}
+28+download,{section=".text",section-sent="17516",section-size="34528",total-sent="18000",total-size="977918"}
+28+download,{section=".text",section-sent="34528",section-size="34528",total-sent="35012",total-size="977918"}
+~"Loading section .rodata, size 0x6c lma 0x80088c4\n"
+28+download,{section=".rodata",section-size="108",total-size="977918"}
+~"Loading section .init_array, size 0x4 lma 0x8008930\n"
+28+download,{section=".init_array",section-size="4",total-size="977918"}
+~"Loading section .fini_array, size 0x4 lma 0x8008934\n"
+28+download,{section=".fini_array",section-size="4",total-size="977918"}
+~"Loading section .data, size 0x180 lma 0x8008938\n"
+28+download,{section=".data",section-size="384",total-size="977918"}
+~"Start address 0x080009b0, load size 35512\n"
+~"Transfer rate: 22 KB/sec, 866 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 2.28V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"main () at ../Core/Src/main.c:227\n"
+~"227\t  while (1)\n"
+*stopped,frame={addr="0x080003b4",func="main",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="227",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="977918"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="977918"}
+~"Loading section .text, size 0x86e0 lma 0x80001e4\n"
+28+download,{section=".text",section-size="34528",total-size="977918"}
+28+download,{section=".text",section-sent="16540",section-size="34528",total-sent="17024",total-size="977918"}
+28+download,{section=".text",section-sent="34188",section-size="34528",total-sent="34672",total-size="977918"}
+~"Loading section .rodata, size 0x6c lma 0x80088c4\n"
+28+download,{section=".rodata",section-size="108",total-size="977918"}
+~"Loading section .init_array, size 0x4 lma 0x8008930\n"
+28+download,{section=".init_array",section-size="4",total-size="977918"}
+~"Loading section .fini_array, size 0x4 lma 0x8008934\n"
+28+download,{section=".fini_array",section-size="4",total-size="977918"}
+~"Loading section .data, size 0x180 lma 0x8008938\n"
+28+download,{section=".data",section-size="384",total-size="977918"}
+~"Start address 0x080009b0, load size 35512\n"
+~"Transfer rate: 22 KB/sec, 866 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+30^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+31^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+23^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+24^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 3.16V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+25^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+26^done
+~"main () at ../Core/Src/main.c:227\n"
+~"227\t  while (1)\n"
+*stopped,frame={addr="0x080003b4",func="main",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="227",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+27+download,{section=".isr_vector",section-size="484",total-size="977918"}
+27+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="977918"}
+~"Loading section .text, size 0x86e0 lma 0x80001e4\n"
+27+download,{section=".text",section-size="34528",total-size="977918"}
+27+download,{section=".text",section-sent="17516",section-size="34528",total-sent="18000",total-size="977918"}
+27+download,{section=".text",section-sent="34528",section-size="34528",total-sent="35012",total-size="977918"}
+~"Loading section .rodata, size 0x6c lma 0x80088c4\n"
+27+download,{section=".rodata",section-size="108",total-size="977918"}
+~"Loading section .init_array, size 0x4 lma 0x8008930\n"
+27+download,{section=".init_array",section-size="4",total-size="977918"}
+~"Loading section .fini_array, size 0x4 lma 0x8008934\n"
+27+download,{section=".fini_array",section-size="4",total-size="977918"}
+~"Loading section .data, size 0x180 lma 0x8008938\n"
+27+download,{section=".data",section-size="384",total-size="977918"}
+~"Start address 0x080009b0, load size 35512\n"
+~"Transfer rate: 22 KB/sec, 866 bytes/write.\n"
+27^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+28^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+29^done
+(gdb) 
+&"quit\n"
+=cmd-param-changed,param="logging enabled",value="on"
+24^done
+(gdb) 
+&"set mem inaccessible-by-default off\n"
+=cmd-param-changed,param="mem inaccessible-by-default",value="off"
+25^done
+(gdb) 
+&"monitor auto_scan\n"
+@"Target voltage: 3.16V\n"
+@"JTAG scan found no devices, trying SWD!\n"
+@"Available Targets:\n"
+@"No. Att Driver\n"
+@" 1      STM32F1  VL density M3\n"
+26^done
+(gdb) 
+&"attach 1\n"
+~"Attaching to program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-group-started,id="i1",pid="1"
+=thread-created,id="1",group-id="i1"
+*running,thread-id="1"
+27^done
+~"main () at ../Core/Src/main.c:227\n"
+~"227\t  while (1)\n"
+*stopped,frame={addr="0x080003b4",func="main",args=[],file="../Core/Src/main.c",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Src\\main.c",line="227",arch="armv7"},thread-id="1",stopped-threads="all"
+&"load E:\\\\Project_Stm32\\\\stm32f103rct6\\\\Debug\\\\stm32f103rct6.elf \n"
+~"Loading section .isr_vector, size 0x1e4 lma 0x8000000\n"
+28+download,{section=".isr_vector",section-size="484",total-size="977918"}
+28+download,{section=".isr_vector",section-sent="484",section-size="484",total-sent="484",total-size="977918"}
+~"Loading section .text, size 0x86e0 lma 0x80001e4\n"
+28+download,{section=".text",section-size="34528",total-size="977918"}
+28+download,{section=".text",section-sent="17516",section-size="34528",total-sent="18000",total-size="977918"}
+28+download,{section=".text",section-sent="34528",section-size="34528",total-sent="35012",total-size="977918"}
+~"Loading section .rodata, size 0x6c lma 0x80088c4\n"
+28+download,{section=".rodata",section-size="108",total-size="977918"}
+~"Loading section .init_array, size 0x4 lma 0x8008930\n"
+28+download,{section=".init_array",section-size="4",total-size="977918"}
+~"Loading section .fini_array, size 0x4 lma 0x8008934\n"
+28+download,{section=".fini_array",section-size="4",total-size="977918"}
+~"Loading section .data, size 0x180 lma 0x8008938\n"
+28+download,{section=".data",section-size="384",total-size="977918"}
+~"Start address 0x080009b0, load size 35512\n"
+~"Transfer rate: 22 KB/sec, 866 bytes/write.\n"
+28^done
+(gdb) 
+&"\n"
+^done
+(gdb) 
+29^done,threads=[{id="1",target-id="Thread 1",frame={level="0",addr="0x080009b0",func="Reset_Handler",args=[],file="../Core/Startup/startup_stm32f103rctx.s",fullname="E:\\Project_Stm32\\stm32f103rct6\\Core\\Startup\\startup_stm32f103rctx.s",line="66",arch="armv7"},state="stopped"}]
+(gdb) 
+30^error,msg="Can not fetch data now."
+(gdb) 
+31^done,groups=[{id="i1",type="process",pid="1",executable="E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf"}]
+(gdb) 
+&"detach\n"
+~"Detaching from program: E:\\Project_Stm32\\stm32f103rct6\\Debug\\stm32f103rct6.elf, Remote target\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (Remote target) detached]\n"
+32^done
+(gdb) 
+&"quit\n"
