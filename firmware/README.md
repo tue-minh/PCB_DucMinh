@@ -17,9 +17,9 @@
 
 | Chức năng                        | Lệnh                  | Mô tả                                      |
 |----------------------------------|-----------------------|--------------------------------------------|
-| Set Speed (Single Channel)       | `dc ch 1 100`         | Đặt tốc độ cho kênh 1                      |
-|                                  | `dc ch 2 200`         | Đặt tốc độ cho kênh 2                      |
-|                                  | `dc ch 3 50`          | Đặt tốc độ cho kênh 3                      |
+| Set Speed (Single Channel)       | `dc ch 1 x`         | Đặt tốc độ cho kênh 1 <br>*Lưu ý: 0 < x ≤ 999*                      |
+|                                  | `dc ch 2 x`         | Đặt tốc độ cho kênh 2 <br>*Lưu ý: 0 < x ≤ 999                     |
+|                                  | `dc ch 3 x`          | Đặt tốc độ cho kênh 3 <br>*Lưu ý: 0 < x ≤ 999                     |
 | Enable PWM Output                | `dc start 1`          | Bật PWM cho kênh 1                         |
 |                                  | `dc start 2`          | Bật PWM cho kênh 2                         |
 |                                  | `dc start 3`          | Bật PWM cho kênh 3                         |
