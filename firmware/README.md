@@ -23,6 +23,9 @@
 | Enable PWM Output                | `dc start 1`          | Bật PWM cho kênh 1                         |
 |                                  | `dc start 2`          | Bật PWM cho kênh 2                         |
 |                                  | `dc start 3`          | Bật PWM cho kênh 3                         |
+| Disable PWM Output                | `dc stop 1`          | Tắt PWM cho kênh 1                         |
+|                                  | `dc stop 2`          | Tắt PWM cho kênh 2                         |
+|                                  | `dc stop 3`          | Tắt PWM cho kênh 3                         |
 
 **Ghi chú:**
 - Các lệnh `dc ch` dùng để đặt tốc độ cho từng kênh riêng lẻ.
